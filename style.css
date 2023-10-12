@@ -1,0 +1,274 @@
+html {
+    scroll-behavior: smooth;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container-heroes {
+    padding: 8rem 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(212, 240, 240);
+}
+.maps-button {
+    display: flex;
+    border: 1px solid #cccccc;
+}
+
+.home, .about, .portofolio, .contact {
+    padding: .7rem;
+    width: 70px;
+}
+
+.container-heroes h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+.container-heroes h1 {
+    margin: 2rem;
+    font-size: 3rem;
+    font-family: Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.home:hover {
+    background-color: #cccccc;
+    cursor: pointer;
+}
+.about:hover {
+    background-color: #cccccc;
+    cursor: pointer;
+}
+.portofolio:hover {
+    background-color: #cccccc;
+    cursor: pointer;
+}
+.contact:hover {
+    background-color: #cccccc;
+    cursor: pointer;
+}
+
+#about {
+    padding: 3rem 2rem;
+}
+
+.container-about {
+    text-align: center;
+    padding: 1rem;
+}
+
+.container-about p {
+    font-family:monospace;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+.container-about h2 {
+    font-size: 3rem;
+}
+
+.container-about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#portofolio {
+    padding: 5rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portofolio h2 {
+    font-size: 2.5rem;
+}
+#portofolio h3 {
+    font-size: 1.5rem;
+}
+.container-portofolio {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+.portofolio-skill { 
+    display: flex;
+    flex-direction: column;
+}
+.portofolio-card {
+    display:flex;
+    margin: 1rem;
+    align-items: center;
+}
+
+.portofolio-card img{
+    width: 180px;
+    height: 180px;
+}
+
+.text-porto {
+    padding: 2rem;
+}
+.text-porto h3{
+    text-align: start;
+    font-size: 1.5rem;
+}
+.text-porto h3:hover{
+    color: blueviolet;
+}
+.text-porto p{
+    font-size: 1.3rem;
+    text-align: start;
+    font-family: monospace;
+}
+.container-img {
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 2rem;
+}
+
+#contact h2 {
+    font-size: 3rem;
+}
+#contact h3 {
+    font-size: 1.5rem;
+}
+#contact p {
+    font-family: monospace;
+    font-size: 1.3rem;
+}
+
+.container-contact {
+    text-align: center;
+    width: 1000px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-contact button {
+    width: 150px;
+    height: 50px;
+    border-radius: .5rem;
+    align-self: center;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+}
+
+.container-contact button:hover {
+    background-color: #cccccc;
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 4rem 2rem 2rem 2rem;
+    background-color: #cccccc;
+}
+footer a {
+    margin: 0 1.5rem;
+}
+footer a:hover {
+    color: blueviolet;
+}
+
+@media (max-width: 600px){
+    .container-portofolio {
+        width: 100%;
+    }
+    .portofolio-card {
+        flex-direction: column;
+    }
+    .container-img {
+        margin: 2rem 0;
+    }
+    .container-heroes h2 {
+        font-size: 1rem;
+    }
+    
+    .container-heroes h1 {
+        font-size: 2rem;
+    }
+
+    .container-heroes {
+        padding: 5rem .7rem;
+    }
+    #contact {
+        padding: 5rem 1.5rem;
+    }
+    #about {
+        padding: 5rem 1.5rem;
+    }
+    #portofolio {
+        padding: 5rem 1.5rem;
+    }
+    footer {
+        padding: 5rem 1.5rem;
+    }
+    .home, .about, .portofolio, .contact {
+        padding: .5rem;
+        width: 50px;
+        font-size: .8rem    ;
+    }
+    #contact h2 {
+        font-size: 1.7rem;
+    }
+    #contact h3 {
+        font-size: 1.3rem;
+    }
+    #contact p {
+        font-size: 1.2rem;
+    }
+    #portofolio h2 {
+        font-size: 1.7rem;
+    }
+    .text-porto h3{
+        font-size: 1.3rem;
+    }
+    .text-porto p{
+        font-size: 1.2rem;
+    }
+    .container-about p {
+        font-size: 1.2rem;
+    }
+    .container-about h2 {
+        font-size: 1.7rem;
+    }
+    .text-porto {
+        padding: 1rem 0;
+    }
+    footer {
+        padding: 3rem .5rem .5rem 1rem;
+    }
+    footer a {
+        margin: 0 1rem;
+    }
+    
+}
